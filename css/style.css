@@ -20,9 +20,15 @@ body {
 }
 ul {
   list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .link {
   text-decoration: none;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* logo */
@@ -79,6 +85,9 @@ ul {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-bottom: 46px;
 }
 .hero .link {
   color: #ffffff;
@@ -87,10 +96,11 @@ ul {
   line-height: 1.87;
   letter-spacing: 0.06em;
   display: inline-block;
-  width: 200px;
+  min-width: 200px;
   height: 50px;
   padding: 10px 32px;
   border-radius: 4px;
+  text-align: center;
 }
 /* характеристики */
 .section-title {
@@ -98,6 +108,8 @@ ul {
   font-size: 14px;
   line-height: 1.14x;
   text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* наши проекты */
@@ -111,6 +123,8 @@ ul {
   line-height: 42px;
   text-align: center;
   letter-spacing: 1.16;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 /* наша команда */
 .team {
@@ -122,16 +136,22 @@ ul {
   line-height: 42px;
   text-align: center;
   letter-spacing: 1.16;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .team-subtitle {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .team-text {
   font-size: 16px;
   line-height: 1.19;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 /* клиенты */
 .clients {
@@ -140,6 +160,8 @@ ul {
   line-height: 42px;
   text-align: center;
   letter-spacing: 1.16;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .clients .link-logo:hover,
 .clients .link-logo:focus {
@@ -186,6 +208,8 @@ footer {
   color: #ffffff;
   font-size: 14px;
   line-height: 1.14;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .footer-address {
   color: #ffffff;
@@ -203,7 +227,21 @@ footer {
 }
 .footer-button {
   background: var(--accent-color);
+  text-decoration: none;
+  display: inline-block;
+  min-width: 200px;
+  height: 50px;
+  padding: 10px 45px;
+  border-radius: 4px;
+  text-align: center;
 }
+
 .button-title {
   color: #ffffff;
+  text-align: center;
+  width: 109px;
+  height: 30px;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 1.87;
 }
