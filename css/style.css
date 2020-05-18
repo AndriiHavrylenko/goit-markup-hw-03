@@ -54,11 +54,15 @@ p {
 /* main-nav */
 .main-nav {
   display: flex;
-  width: 1230px;
+
   margin: 0 auto;
   align-items: center;
 }
 .main-nav .container {
+  display: flex;
+  align-items: center;
+}
+.main-nav .contact {
   display: flex;
   align-items: center;
 }
