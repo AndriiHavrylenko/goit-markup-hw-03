@@ -39,7 +39,6 @@ p {
 }
 /* logo */
 .logo {
-  margin-top: 25px;
   margin-right: 86px;
 
   color: var(--title-text-color);
@@ -61,6 +60,7 @@ p {
 }
 .main-nav .container {
   display: flex;
+  align-items: center;
 }
 
 /* site-nav */
@@ -91,7 +91,7 @@ p {
 /* contact-nav */
 .contact-nav {
   display: flex;
-  margin: auto;
+  margin-left: auto;
 }
 .contact-nav .item:not(:last-child) {
   margin-right: 30px;
@@ -148,6 +148,7 @@ p {
 .container .characteristic {
   display: flex;
   margin-bottom: 94px;
+  margin: 0 auto;
 }
 .characteristic .item {
   width: calc((100%-90px) / 4);
@@ -161,7 +162,6 @@ p {
   padding-right: 107px;
   padding-bottom: 25px;
   padding-top: 25px;
-  background-color: black;
 }
 .section-title {
   margin-top: 0;
